@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|c:\\users\\jefte\\source\\repos\\praticanv3livraria\\praticanv3livraria\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|solutionrelative:praticanv3livraria\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|c:\\users\\jefte\\source\\repos\\praticanv3livraria\\praticanv3livraria\\services\\bookinmemorysercice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|solutionrelative:praticanv3livraria\\services\\bookinmemorysercice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|c:\\users\\jefte\\source\\repos\\praticanv3livraria\\praticanv3livraria\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|solutionrelative:praticanv3livraria\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|c:\\users\\jefte\\source\\repos\\praticanv3livraria\\praticanv3livraria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|solutionrelative:praticanv3livraria\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|c:\\users\\jefte\\source\\repos\\praticanv3livraria\\praticanv3livraria\\communication\\request\\bookcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE3AA7F5-7D29-4298-86D7-0782A95E7C7F}|PraticaNv3Livraria\\PraticaNv3Livraria.csproj|solutionrelative:praticanv3livraria\\communication\\request\\bookcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookCreateRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Communication\\Request\\BookCreateRequest.cs",
+              "RelativeDocumentMoniker": "PraticaNv3Livraria\\Communication\\Request\\BookCreateRequest.cs",
+              "ToolTip": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Communication\\Request\\BookCreateRequest.cs",
+              "RelativeToolTip": "PraticaNv3Livraria\\Communication\\Request\\BookCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:59:21.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "PraticaNv3Livraria\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "PraticaNv3Livraria\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAADwv0gAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:30:36.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookInMemorySercice.cs",
+              "DocumentMoniker": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Services\\BookInMemorySercice.cs",
+              "RelativeDocumentMoniker": "PraticaNv3Livraria\\Services\\BookInMemorySercice.cs",
+              "ToolTip": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Services\\BookInMemorySercice.cs",
+              "RelativeToolTip": "PraticaNv3Livraria\\Services\\BookInMemorySercice.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAqwDkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:24:54.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "PraticaNv3Livraria\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Models\\Book.cs",
+              "RelativeToolTip": "PraticaNv3Livraria\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:21:30.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Program.cs",
+              "RelativeDocumentMoniker": "PraticaNv3Livraria\\Program.cs",
+              "ToolTip": "C:\\Users\\jefte\\source\\repos\\PraticaNv3Livraria\\PraticaNv3Livraria\\Program.cs",
+              "RelativeToolTip": "PraticaNv3Livraria\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T13:20:48.023Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
