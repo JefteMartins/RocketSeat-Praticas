@@ -23,6 +23,13 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+# Visual Studio / IDE
+# Arquivos e pastas de configurações de usuário e ambiente de desenvolvimento local
+.vs/
+*.user
+*.bak
+[Tt]humbs.db # Arquivo de miniaturas do Windows
+
 # .NET Core
 project.lock.json
 project.fragment.lock.json
