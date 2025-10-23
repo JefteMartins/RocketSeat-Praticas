@@ -1,6 +1,6 @@
 ﻿namespace CashFlow.Communication.Reponses
 {
-    public class ResponseRegisterExpenseJson
+    public class ResponseRegisteredExpenseJson
     {
         public string Title { get; set; } = string.Empty;
     }
