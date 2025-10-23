@@ -14,7 +14,6 @@ public class CultureMiddleware
     {
 
         var supportedLanguages = CultureInfo.GetCultures(CultureTypes.AllCultures)
-            //.Select(c => c.Name)
             .ToList();
         var requestedCulture = context.Request.Headers.AcceptLanguage.ToString();
 
