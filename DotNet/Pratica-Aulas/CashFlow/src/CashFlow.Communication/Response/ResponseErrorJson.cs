@@ -1,4 +1,4 @@
-﻿namespace CashFlow.Communication.Reponses
+﻿namespace CashFlow.Communication.Response
 {
     public class ResponseErrorJson
     {
