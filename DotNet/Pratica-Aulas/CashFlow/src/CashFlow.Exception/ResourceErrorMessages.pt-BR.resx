@@ -129,6 +129,9 @@
   <data name="INVALID_PAYMENT_TYPE" xml:space="preserve">
     <value>Método de pagamento inválido</value>
   </data>
+  <data name="EXPENSE_NOT_FOUND" xml:space="preserve">
+    <value>Despesa não encontrada</value>
+  </data>
   <data name="TITLE_LENGTH_GREATER_THAN_100" xml:space="preserve">
     <value>Titulo não pode ter mais que 100 caracteres</value>
   </data>
