@@ -1,4 +1,4 @@
-﻿using Bogus;
+using Bogus;
 using CashFlow.Communication.Enums;
 using CashFlow.Communication.Requests;
 using System.ComponentModel.DataAnnotations;
@@ -7,6 +7,10 @@ namespace CommonTestUtilities.Requests;
 
 public class RequestRegisterExpenseJsonBuilder
 {
+    /// <summary>
+    /// Builds a RequestExpenseJson populated with randomized test data.
+    /// </summary>
+    /// <returns>A RequestExpenseJson populated with randomized values for Title, Description, Amount, Date, and paymentType.</returns>
     public static RequestExpenseJson Build()
     {
         return new Faker<RequestExpenseJson>()

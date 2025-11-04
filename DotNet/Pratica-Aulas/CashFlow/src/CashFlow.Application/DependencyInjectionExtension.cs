@@ -1,4 +1,4 @@
-﻿using CashFlow.Application.AutoMapper;
+using CashFlow.Application.AutoMapper;
 using CashFlow.Application.UseCase.Expenses.GetAll;
 using CashFlow.Application.UseCase.Expenses.GetById;
 using CashFlow.Application.UseCase.Expenses.Register;
@@ -24,6 +24,10 @@ public static class DependencyInjectionExtension
         });
     }
 
+    /// <summary>
+    /// Registers application-layer use case implementations with a scoped lifetime in the provided dependency injection container.
+    /// </summary>
+    /// <param name="services">The service collection to add the use case registrations to.</param>
     private static void AddUseCases(IServiceCollection services)
     {
         services.AddScoped<IRegisterExpenseUseCase, RegisterExpenseUseCase>();
@@ -33,4 +37,3 @@ public static class DependencyInjectionExtension
         services.AddScoped<IUpdateExpenseUseCase, UpdateExpenseUseCase>();
     }
 }
-

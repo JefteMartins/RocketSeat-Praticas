@@ -1,4 +1,4 @@
-﻿using CashFlow.Communication.Requests;
+using CashFlow.Communication.Requests;
 using CashFlow.Exception;
 using FluentValidation;
 
@@ -6,6 +6,17 @@ namespace CashFlow.Application.UseCase.Expenses;
 
 public  class ExpenseValidator : AbstractValidator<RequestExpenseJson>
 {
+    /// <summary>
+    /// Configures validation rules for RequestExpenseJson properties.
+    /// </summary>
+    /// <remarks>
+    /// Applies the following validations:
+    /// - Title: required and maximum length of 100 characters.
+    /// - Description: maximum length of 500 characters.
+    /// - Amount: must be greater than 0.
+    /// - Date: must be less than or equal to the current UTC date/time.
+    /// - paymentType: must be a valid enum value.
+    /// </remarks>
     public ExpenseValidator()
     {
         RuleFor(x => x.Title)

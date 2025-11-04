@@ -1,4 +1,4 @@
-﻿using CashFlow.Domain.Repositories;
+using CashFlow.Domain.Repositories;
 using CashFlow.Domain.Repositories.Expenses;
 using CashFlow.Infraestructure.DataAccess;
 using CashFlow.Infraestructure.DataAccess.Repositories;
@@ -16,6 +16,16 @@ public static class DependencyInjectionExtension
         AddDbContext(services, configuration);
     }
 
+    /// <summary>
+    /// Registers repository and unit-of-work services in the provided DI service collection.
+    /// </summary>
+    /// <remarks>
+    /// Adds the following scoped registrations:
+    /// - IUnitOfWork -> UnitOfWork
+    /// - IExpensesReadOnlyRepository -> ExpensesRepository
+    /// - IExpensesWriteOnlyRepository -> ExpensesRepository
+    /// - IExpensesUpdateOnlyRepository -> ExpensesRepository
+    /// </remarks>
     private static void AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IUnitOfWork, UnitOfWork>();
@@ -24,6 +34,10 @@ public static class DependencyInjectionExtension
         services.AddScoped<IExpensesUpdateOnlyRepository, ExpensesRepository>();
     }
 
+    /// <summary>
+    /// Registers CashFlowDbContext in the DI container configured to use MySQL (server version 8.0.43)
+    /// with the connection string named "Connection" from the provided configuration.
+    /// </summary>
     private static void AddDbContext(this IServiceCollection services, IConfiguration configuration)
     {
 

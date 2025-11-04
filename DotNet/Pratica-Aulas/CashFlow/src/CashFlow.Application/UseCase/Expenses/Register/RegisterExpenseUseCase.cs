@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+using AutoMapper;
 using CashFlow.Communication.Requests;
 using CashFlow.Communication.Response;
 using CashFlow.Domain.Entities;
@@ -15,6 +15,9 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
     private readonly IUnitOfWork _unitOfWork;
     private readonly IMapper _mapper;
 
+    /// <summary>
+    /// Initializes a new instance of <see cref="RegisterExpenseUseCase"/> with the required dependencies.
+    /// </summary>
     public RegisterExpenseUseCase(
         IExpensesWriteOnlyRepository repository,
         IUnitOfWork unitOfWork,
@@ -24,6 +27,11 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
         _unitOfWork = unitOfWork;
         _mapper = mapper;
     }
+    /// <summary>
+    /// Registers a new expense using the provided request and returns the registered expense representation.
+    /// </summary>
+    /// <param name="request">The expense data to register.</param>
+    /// <returns>The registered expense mapped to a <c>ResponseRegisteredExpenseJson</c>.</returns>
     public async Task<ResponseRegisteredExpenseJson> Execute(RequestExpenseJson request) 
     {
 
@@ -38,6 +46,11 @@ public class RegisterExpenseUseCase : IRegisterExpenseUseCase
         return _mapper.Map<ResponseRegisteredExpenseJson>(entity) ;
     }
 
+    /// <summary>
+    /// Validates the provided expense request and enforces business/input rules.
+    /// </summary>
+    /// <param name="request">The expense request to validate.</param>
+    /// <exception cref="ErrorOnValidationException">Thrown when validation fails; contains a list of validation error messages.</exception>
     private void Validate(RequestExpenseJson request)
     {
         var validator = new ExpenseValidator();

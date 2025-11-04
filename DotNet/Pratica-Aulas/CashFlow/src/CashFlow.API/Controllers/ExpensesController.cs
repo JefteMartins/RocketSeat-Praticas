@@ -1,4 +1,4 @@
-﻿using CashFlow.Application.UseCase.Expenses.GetAll;
+using CashFlow.Application.UseCase.Expenses.GetAll;
 using CashFlow.Application.UseCase.Expenses.GetById;
 using CashFlow.Application.UseCase.Expenses.Register;
 using CashFlow.Application.UseCase.Expenses.Update;
@@ -14,6 +14,11 @@ namespace CashFlow.API.Controllers;
 [ApiController]
 public class ExpensesController : ControllerBase
 {
+    /// <summary>
+    /// Registers a new expense.
+    /// </summary>
+    /// <param name="request">The expense data to create.</param>
+    /// <returns>The created expense information as a <see cref="ResponseRegisteredExpenseJson"/>, returned with HTTP 201 Created.</returns>
     [HttpPost]
     [ProducesResponseType(typeof(ResponseRegisteredExpenseJson), StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseErrorJson), StatusCodes.Status400BadRequest)]
@@ -48,6 +53,11 @@ public class ExpensesController : ControllerBase
         return Ok(response);
     }
 
+    /// <summary>
+    /// Deletes the expense with the specified identifier.
+    /// </summary>
+    /// <param name="id">The identifier of the expense to delete.</param>
+    /// <returns>An empty 204 No Content response on success.</returns>
     [HttpDelete]
     [Route("{id}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
@@ -60,6 +70,12 @@ public class ExpensesController : ControllerBase
         return NoContent();
     }
 
+    /// <summary>
+    /// Updates an existing expense identified by the given id using the provided request data.
+    /// </summary>
+    /// <param name="id">The identifier of the expense to update.</param>
+    /// <param name="request">The updated expense data.</param>
+    /// <returns>204 NoContent when the expense is successfully updated.</returns>
     [HttpPut]
     [Route("{id}")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
